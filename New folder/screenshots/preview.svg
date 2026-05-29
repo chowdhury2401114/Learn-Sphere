@@ -1,0 +1,29 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="720" fill="#0B1120"/>
+<rect x="50" y="40" width="1100" height="640" rx="32" fill="#111827" stroke="#263244"/>
+<text x="90" y="95" fill="#E5E7EB" font-family="Arial" font-size="34" font-weight="800">LearnSphere</text>
+<rect x="920" y="62" width="150" height="38" rx="19" fill="#FACC15"/>
+<text x="950" y="87" fill="#111827" font-family="Arial" font-size="18" font-weight="700">Launch MVP</text>
+<text x="90" y="165" fill="#FFFFFF" font-family="Arial" font-size="46" font-weight="800">Legal-first knowledge discovery.</text>
+<text x="90" y="210" fill="#9CA3AF" font-family="Arial" font-size="20">Student Mode • Library Finder • Research Mode • WorldCat • Analytics</text>
+<rect x="90" y="245" width="160" height="42" rx="21" fill="#FACC15"/>
+<text x="120" y="273" fill="#111827" font-family="Arial" font-size="16" font-weight="700">Student Mode</text>
+<rect x="270" y="245" width="160" height="42" rx="21" fill="#1F2937" stroke="#374151"/>
+<text x="302" y="273" fill="#E5E7EB" font-family="Arial" font-size="16">Library Finder</text>
+<rect x="450" y="245" width="160" height="42" rx="21" fill="#1F2937" stroke="#374151"/>
+<text x="486" y="273" fill="#E5E7EB" font-family="Arial" font-size="16">Research</text>
+<rect x="90" y="315" width="760" height="60" rx="16" fill="#F9FAFB"/>
+<text x="120" y="352" fill="#667085" font-family="Arial" font-size="18">Search: Hibbeler, Plato, Quantum...</text>
+<rect x="870" y="315" width="150" height="60" rx="16" fill="#FACC15"/>
+<text x="916" y="352" fill="#111827" font-family="Arial" font-size="18" font-weight="800">Search</text>
+<rect x="90" y="425" width="470" height="190" rx="22" fill="#0F172A" stroke="#263244"/>
+<text x="120" y="470" fill="#E5E7EB" font-family="Arial" font-size="28" font-weight="800">AI Answer Panel</text>
+<text x="120" y="512" fill="#9CA3AF" font-family="Arial" font-size="18">Source-aware legal access guide.</text>
+<rect x="610" y="425" width="470" height="190" rx="22" fill="#0F172A" stroke="#263244"/>
+<text x="640" y="470" fill="#E5E7EB" font-family="Arial" font-size="28" font-weight="800">Analytics + Graph</text>
+<circle cx="700" cy="540" r="30" fill="#E5E7EB"/>
+<circle cx="820" cy="515" r="24" fill="#1D4ED8"/>
+<circle cx="925" cy="560" r="24" fill="#FACC15"/>
+<path d="M728 533 L796 520" stroke="#9CA3AF" stroke-width="3"/>
+<path d="M728 548 L902 558" stroke="#9CA3AF" stroke-width="3"/>
+</svg>

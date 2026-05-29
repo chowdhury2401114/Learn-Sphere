@@ -1,0 +1,224 @@
+[
+  {
+    "id": "engineering-mechanics-statics-hibbeler",
+    "title": "Engineering Mechanics: Statics",
+    "authors": [
+      "R. C. Hibbeler"
+    ],
+    "category": "Engineering",
+    "type": "Textbook",
+    "description": "Statics textbook covering forces, equilibrium, trusses, friction, centroid and moment of inertia.",
+    "tags": [
+      "statics",
+      "truss",
+      "centroid",
+      "friction",
+      "moment of inertia",
+      "equilibrium"
+    ],
+    "sources": [
+      "Google Books",
+      "Open Library",
+      "WorldCat",
+      "University Library"
+    ],
+    "related_topics": [
+      "Equilibrium",
+      "Truss Analysis",
+      "Centroid",
+      "Moment of Inertia"
+    ],
+    "access_type": "Preview / Library / Used copy",
+    "trust_level": "Academic textbook",
+    "mode": [
+      "student",
+      "library"
+    ],
+    "rating": 4.7,
+    "views": 1840,
+    "trending_score": 92
+  },
+  {
+    "id": "concepts-modern-physics-beiser",
+    "title": "Concepts of Modern Physics",
+    "authors": [
+      "Arthur Beiser"
+    ],
+    "category": "Physics",
+    "type": "Textbook",
+    "description": "Modern physics textbook covering relativity, quantum physics, atomic physics and nuclear physics.",
+    "tags": [
+      "modern physics",
+      "quantum",
+      "radioactivity",
+      "atomic physics",
+      "nuclear physics"
+    ],
+    "sources": [
+      "Google Books",
+      "Open Library",
+      "WorldCat",
+      "University Library"
+    ],
+    "related_topics": [
+      "Quantum Mechanics",
+      "Photoelectric Effect",
+      "Radioactivity"
+    ],
+    "access_type": "Preview / Library / Used copy",
+    "trust_level": "Academic textbook",
+    "mode": [
+      "student",
+      "research",
+      "library"
+    ],
+    "rating": 4.6,
+    "views": 1690,
+    "trending_score": 88
+  },
+  {
+    "id": "intro-algorithms-clrs",
+    "title": "Introduction to Algorithms",
+    "authors": [
+      "Thomas H. Cormen",
+      "Charles E. Leiserson",
+      "Ronald L. Rivest",
+      "Clifford Stein"
+    ],
+    "category": "Computer Science",
+    "type": "Textbook",
+    "description": "Algorithms textbook covering sorting, graphs, dynamic programming and computational complexity.",
+    "tags": [
+      "algorithms",
+      "data structures",
+      "graph theory",
+      "dynamic programming",
+      "complexity"
+    ],
+    "sources": [
+      "Google Books",
+      "Open Library",
+      "WorldCat"
+    ],
+    "related_topics": [
+      "Algorithms",
+      "Data Structures",
+      "Graph Theory",
+      "Dynamic Programming"
+    ],
+    "access_type": "Preview / Library / Purchase",
+    "trust_level": "Academic textbook",
+    "mode": [
+      "student",
+      "research"
+    ],
+    "rating": 4.8,
+    "views": 2200,
+    "trending_score": 96
+  },
+  {
+    "id": "pride-and-prejudice-austen",
+    "title": "Pride and Prejudice",
+    "authors": [
+      "Jane Austen"
+    ],
+    "category": "Literature",
+    "type": "Novel",
+    "description": "Classic English novel about manners, marriage, class and character.",
+    "tags": [
+      "novel",
+      "classic",
+      "romance",
+      "english literature"
+    ],
+    "sources": [
+      "Project Gutenberg",
+      "Open Library",
+      "WorldCat",
+      "Standard Ebooks"
+    ],
+    "related_topics": [
+      "Classic Literature",
+      "English Novel",
+      "Romantic Fiction"
+    ],
+    "access_type": "Public domain free text",
+    "trust_level": "Public-domain classic",
+    "mode": [
+      "library"
+    ],
+    "rating": 4.5,
+    "views": 3100,
+    "trending_score": 94
+  },
+  {
+    "id": "the-republic-plato",
+    "title": "The Republic",
+    "authors": [
+      "Plato"
+    ],
+    "category": "Philosophy",
+    "type": "Classic Text",
+    "description": "Philosophical work discussing justice, knowledge, education and ideal society.",
+    "tags": [
+      "philosophy",
+      "justice",
+      "plato",
+      "ethics",
+      "politics"
+    ],
+    "sources": [
+      "Project Gutenberg",
+      "Open Library",
+      "WorldCat",
+      "Internet Classics Archive"
+    ],
+    "related_topics": [
+      "Justice",
+      "Political Philosophy",
+      "Ethics",
+      "Epistemology"
+    ],
+    "access_type": "Public domain free text",
+    "trust_level": "Classical philosophical text",
+    "mode": [
+      "research",
+      "library"
+    ],
+    "rating": 4.4,
+    "views": 1450,
+    "trending_score": 79
+  },
+  {
+    "id": "wikipedia",
+    "title": "Wikipedia",
+    "authors": [
+      "Wikimedia Foundation"
+    ],
+    "category": "Reference",
+    "type": "Open Encyclopedia",
+    "description": "Free encyclopedia covering almost every field of knowledge.",
+    "tags": [
+      "encyclopedia",
+      "reference",
+      "wiki",
+      "general knowledge"
+    ],
+    "sources": [
+      "wikipedia.org"
+    ],
+    "related_topics": [
+      "Reference",
+      "Citations",
+      "General Knowledge"
+    ],
+    "access_type": "Free website",
+    "trust_level": "Good starting point; verify with citations",
+    "mode": [
+      "research"
+    ],
+    "rating": 4.7,
+    "views": 5000,
+    "trending_score": 99
+  }
+]

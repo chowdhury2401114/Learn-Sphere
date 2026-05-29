@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LearnSphere</title>
+  <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+<header class="hero">
+  <nav>
+    <div class="logo">LearnSphere <span>V6</span></div>
+    <div class="nav">
+      <a href="#search">Search</a>
+      <a href="#recommend">Discover</a>
+      <a href="#modes">Modes</a>
+      <a href="#account">Account</a>
+      <a href="#analytics">Analytics</a>
+      <button class="theme-btn" onclick="toggleTheme()">🌙</button>
+    </div>
+  </nav>
+
+  <div class="hero-body">
+    <div class="pill">Launch-ready MVP</div>
+    <h1>Legal-first knowledge discovery for students, readers, and researchers.</h1>
+    <p>V6 solves deployment, validation, modes, analytics, source guidance, autocomplete, dark mode, account placeholder, admin placeholder, and GitHub-readiness.</p>
+
+    <div class="mode-tabs" id="modes">
+      <button class="active" onclick="setMode('', this)">All</button>
+      <button onclick="setMode('student', this)">Student Mode</button>
+      <button onclick="setMode('library', this)">Library Finder</button>
+      <button onclick="setMode('research', this)">Research Mode</button>
+    </div>
+
+    <div class="search-wrap" id="search">
+      <div class="search-box">
+        <input id="searchInput" placeholder="Try: Hibbeler, Plato, quantum, calculus, Jane Austen..." autocomplete="off"/>
+        <button onclick="searchAll()">Search</button>
+      </div>
+      <div id="suggestions" class="suggestions"></div>
+    </div>
+
+    <div class="source-toggles">
+      <label><input type="checkbox" value="local" checked> Local</label>
+      <label><input type="checkbox" value="openlibrary" checked> Open Library</label>
+      <label><input type="checkbox" value="google" checked> Google Books</label>
+      <label><input type="checkbox" value="wikipedia" checked> Wikipedia</label>
+      <label><input type="checkbox" value="gutenberg" checked> Public Domain</label>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="stats">
+    <div><b>Deployable</b><span>Render/Railway/Vercel docs</span></div>
+    <div><b>Validated</b><span>User testing guide included</span></div>
+    <div><b>Focused</b><span>Student, Library, Research modes</span></div>
+  </section>
+
+  <section class="section">
+    <h2>API Status</h2>
+    <div id="status" class="status-box">Ready.</div>
+  </section>
+
+  <section class="section">
+    <h2>AI Answer Panel</h2>
+    <div id="aiAnswer" class="answer-box">
+      <p>Search anything to get a source-aware answer, legal access guide, and next-step suggestions.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Results</h2>
+    <p class="muted">LearnSphere does not host pirated PDFs. It points to legal sources, public-domain texts, libraries, official pages, previews, and buy/borrow options.</p>
+    <div id="cards" class="grid"></div>
+  </section>
+
+  <section class="section" id="recommend">
+    <h2>Discover</h2>
+    <div class="recommend-grid">
+      <div><h3>Trending</h3><div id="trendingBox"></div></div>
+      <div><h3>Highly Rated</h3><div id="ratedBox"></div></div>
+      <div><h3>Student Mode Picks</h3><div id="studentBox"></div></div>
+      <div><h3>Free / Public Domain</h3><div id="freeBox"></div></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Knowledge Graph</h2>
+    <div id="graphArea" class="graph-area"></div>
+  </section>
+
+  <section class="section account" id="account">
+    <h2>User Account Placeholder</h2>
+    <div class="account-card">
+      <div class="avatar">LS</div>
+      <div>
+        <b>Guest User</b>
+        <p>Future: bookmarks, reading lists, search history, saved learning paths.</p>
+      </div>
+      <button onclick="showAccountPlan()">View Plan</button>
+    </div>
+  </section>
+
+  <section class="section request">
+    <h2>Request Missing Knowledge</h2>
+    <div class="request-box">
+      <input id="reqTitle" placeholder="Book/topic/source title"/>
+      <input id="reqNote" placeholder="Author, edition, category, or note"/>
+      <button onclick="saveRequest()">Request</button>
+    </div>
+    <ul id="requestList"></ul>
+  </section>
+
+  <section class="section" id="analytics">
+    <h2>Analytics</h2>
+    <div id="analyticsBox" class="status-box">Loading analytics...</div>
+  </section>
+</main>
+
+<footer>
+  <p>LearnSphere — launch-ready open-source knowledge discovery MVP.</p>
+</footer>
+
+<script src="/app.js"></script>
+</body>
+</html>
